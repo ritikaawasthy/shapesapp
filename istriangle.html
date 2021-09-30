@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="navigation">
+      <li class="navigation-button"><a href="index.html">Home</a></li>
+      <li class="navigation-button"><a href="quiz.html">Quiz</a></li>
+      <li class="navigation-button"><a href="istriangle.html">Is Triangle</a></li>
+      <li class="navigation-button"><a href="hypotenues.html">Hypotenues</a></li>
+      <li class="navigation-button"><a href="area.html">Area</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1 style="text-align: center;">Check if you have a valid triangle!</h1>
+    <p style="text-align: center;">Fill the measurement for each angle and check if its a valid triangle. </p>
+    <div class="card">
+      <form class="left-form" action="index.html" method="post" style="float: left;">
+        <label for="angle1">Angle One (A)</label>
+        <input class="angle" id="angle1" type="number" name="angle1" required>
+        <label for="angle1">Angle Two (B)</label>
+        <input class="angle" id="angle2" type="number" name="angle2" required>
+        <label for="angle1">Angle Three (C)</label>
+        <input class="angle" id="angle3" type="number" name="angle3" required>
+        <br>
+        <button class="tri-btn" type="submit">Submit</button>
+      </form>
+      <img src="https://thumbs.dreamstime.com/b/obtuse-triangle-abc-vintage-illustration-image-shows-all-angles-greater-than-degrees-call-them-as-have-three-163308081.jpg" height=180  width=280 style="margin: 3rem 1rem 3rem 1rem;" alt="">
+     <br>
+       <p class="tri-output"></p>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="index.html">Github</a></li>
+      <li><a href="index.html">LinkedIn</a></li>
+      <li><a href="index.html">Instagram</a></li>
+    </ul>
+  </footer>
+
+
+  <script src="istriangle.js" type="text/javascript"></script>
+</body>
+
+</html>

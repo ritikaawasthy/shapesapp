@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+       <ul class="navigation" >
+         <li class="navigation-button"><a href="index.html">Home</a></li>
+         <li class="navigation-button" ><a href="quiz.html">Quiz</a></li>
+         <li class="navigation-button"><a href="istriangle.html">Is Triangle</a></li>
+         <li class="navigation-button"><a href="hypotenues.html">Hypotenues</a></li>
+         <li class="navigation-button"><a href="area.html">Area</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1 style="text-align: center;">Calculate Area</h1>
+      <p style="text-align: center; font-size: 20px">Enter the base and height of you triangle to calculat the area</p>
+      <div class="card">
+      <form class="left-form" id="area-form" style="float: left;">
+        <label  for="perpendicular">Height (cm)</label>
+        <input class="angle" type="number" name="height" required>
+        <label for="base">Base (cm)</label>
+        <input class="angle" type="number" name="base" required>
+        <br><br><br>
+        <button class="tri-btn" type="submit">Submit</button>
+      </form>
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/triangle-7.png" height=200 style="margin: 0 0 3rem 1rem;" alt="">
+       <br>
+       <p id="area-output" style="float:right;"></p>
+      </div>
+      </div>
+    <footer>
+      <ul>
+        <li ><a href="index.html">Github</a></li>
+        <li ><a href="index.html">LinkedIn</a></li>
+        <li ><a href="index.html">Instagram</a></li>
+     </ul>
+    </footer>
+
+
+    <script src="area.js" type="text/javascript"></script>
+  </body>
+</html>

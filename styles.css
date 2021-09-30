@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height:100vw;
+  width:100vw;
+  --primary-color: #F25287;
+  --secondary-color: #F7D9D9;
+  --background-color: #DDDDDD;
+  --background2-color:#F9F3F3 ;
+  --grey-background : #dedede;
+  --change-color : #b594a2;
+  --border-color: #e3e3e3;
+  background-color: var(--background2-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0 0 0.5rem 0;
+}
+label{
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+button{
+  margin: 2px 0px 2px 0px;
+  background-color: #F25287;
+  border-radius: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border: solid var(--background2);
+  box-shadow:4px 2px 2px  var(--grey-background);
+  font-style: bold;
+  font-size: 15px;
+
+}
+button:hover{
+  cursor: pointer;
+}
+
+li{
+  position: :absolute;
+  display: inline;
+  text-align: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+footer{
+  width: 100vw;
+  height:7rem;
+  position: fixed;
+  top: 90%;
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 2rem 0 2rem 0;
+}
+
+p{
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+nav{
+  text-align: left;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 5px 5px 0 var(--background-color);
+}
+
+input{
+  margin:0px 10px 2px 0px;
+  background-color: var(--secondary-color)
+}
+
+
+.container{
+  margin: 2vw 20vw 0 20vw;
+}
+
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover{
+  color: var(--change-color) ;
+}
+
+.navigation{
+  text-align: right;
+
+}
+.navigation-button{
+  margin: 0.2rem 0.5rem 0.2rem 0.5rem;
+  font-size: 20px;
+
+}
+
+.que{
+  position: sticky;
+  margin: 2vw 20vw 2vw 20vw;
+  padding: 1rem 0 1rem 0;
+  text-align: left;
+  border: solid var(--border-color);
+  border-width: 1px 0px 1px 0px ;
+  box-shadow: 3px 3px 3px #F7D9D9;
+}
+
+.quiz-btn{
+  margin: 1vw 20vw 8vw 20vw;
+}
+
+.angle{
+  font-size: 20px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+  border-radius: 0.5rem;
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  border: none;
+
+}
+
+.card{
+  border: 2px solid var(--secondary-color);
+  min-height: 30vw;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 8px 8px var(--secondary-color);
+
+}
+.left-form{
+ width:30vw;
+
+}
+.tri-btn{
+  20px 300px 20px 300px;
+}
+.hyp-btn{
+  90px 500px 20px 500px;
+}
+#output{
+    margin: 20px 350px 20px 350px;
+}
